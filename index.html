@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hello-pages — CI/CD Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🚀 hello-pages</h1>
+        <p>Статический сайт с CI/CD на GitHub Pages</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>О проекте</h2>
+            <p>Это учебный статический сайт, который автоматически публикуется на GitHub Pages через GitHub Actions.</p>
+        </section>
+
+        <section>
+            <h2>Как это работает</h2>
+            <ol>
+                <li>Пишем HTML/CSS/JS</li>
+                <li>Пушим в <code>main</code></li>
+                <li>GitHub Actions собирает и деплоит на Pages</li>
+                <li>Сайт доступен по URL</li>
+            </ol>
+        </section>
+
+        <section>
+            <h2>Демо JS</h2>
+            <p>Нажмите кнопку — JavaScript посчитает:</p>
+            <button id="calc-btn">Посчитать 1..10</button>
+            <p id="result">Результат: —</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© <span id="year"></span> xem1zo · CI/CD Demo</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
